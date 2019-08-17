@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='wrs_fcsc_event_0'>
+    <static>1</static>
+    <link name='link'>
+      <inertial>
+	<pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>12000</mass>
+        <inertia>
+          <ixx>1490.6</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1636.1</iyy>
+          <iyz>0</iyz>
+          <izz>481.7</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc_event_0/meshes/wrs_fcsc_event_0.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <!--<collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc_event_0/meshes/wrs_fcsc_event_0.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>-->
+    </link>
+  </model>
+</sdf>

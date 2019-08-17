@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='wrs_fcsc_ticket'>
+    <static>0</static>
+    <link name='link'>
+      <inertial>
+	<pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.166667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.166667</iyy>
+          <iyz>0</iyz>
+          <izz>0.166667</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc_ticket/meshes/wrs_fcsc_ticket.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc_ticket/meshes/wrs_fcsc_ticket.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

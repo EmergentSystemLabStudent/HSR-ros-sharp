@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e082e2880ba5563448899c3622ee4fc7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HSRConnector: {fileID: 1653371455480040, guid: 1a05d766d0d78324680a1611cd286d61,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
